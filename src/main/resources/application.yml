@@ -1,0 +1,12 @@
+server:
+   port: 8080
+springdoc:
+   api-docs:
+      enabled: true
+
+management:
+   endpoints:
+      jmx:
+         exposure:
+            include: "health,info"
+
